@@ -1,0 +1,12 @@
+.clickable {
+	cursor: hand;
+	cursor: pointer;
+}
+
+.clickable:hover {
+	background-color: lightgrey;
+}
+
+.clickable:hover > .info-box-icon {
+	opacity: 0.8;
+}
