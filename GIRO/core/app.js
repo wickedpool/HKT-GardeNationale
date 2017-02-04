@@ -3,6 +3,7 @@
 const Dashboard = { template: '#template-dashboard' };
 const NotFound = { template: '#template-not-found' };
 const Missions = { template: '#template-missions' };
+const GardeNationale = { template: '#template-garde-nationale' };
 
 // 2. Define some routes
 // Each route should map to a component. The "component" can
@@ -12,7 +13,8 @@ const Missions = { template: '#template-missions' };
 const routes = [
   { path: '/', name: 'Dashboard', component: Dashboard},
   { path: '/404', component: NotFound},
-  { path: '/missions', component: Missions}
+  { path: '/missions', component: Missions},
+  { path: '/garde-nationale', component: GardeNationale}
 ];
 
 // 3. Create the router instance and pass the `routes` option
