@@ -16,7 +16,7 @@ const routes = [
   { path: '/404', component: NotFound},
   { path: '/missions', component: Missions},
   { path: '/search', component: Search},
-  { path: '/add', component: Search}
+  { path: '/add', component: Add}
 ];
 
 // 3. Create the router instance and pass the `routes` option
